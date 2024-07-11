@@ -17,16 +17,28 @@ const Home = () => {
         </section>
         <section className="grid grid-cols-4 grid-rows-3 gap-3 py-8">
           <div className="col-span-2 blur-[2px] grayscale hover:filter-none">
-            <img src={streetFight} className="object-cover h-[100%]" />
+            <img
+              src={streetFight}
+              alt="streetfight project"
+              className="object-cover h-[100%]"
+            />
           </div>
           <div className="col-span-3 row-span-2 blur-[2px] grayscale hover:filter-none ">
-            <img src={weather} className="object-cover h-[100%]" />
+            <img
+              src={weather}
+              alt="weather project"
+              className="object-cover h-[100%]"
+            />
           </div>
           <div className="row-span-2 blur-[2px] grayscale hover:filter-none">
-            <img src={fastfood} className="" />
+            <img src={fastfood} alt="fastfood project" className="" />
           </div>
           <div className="col-span-2 col-start-3 row-start-1 grayscale blur-[2px] hover:filter-none">
-            <img src={etchasketch} className="object-cover h-[100%]" />
+            <img
+              src={etchasketch}
+              alt="etchasketch project"
+              className="object-cover h-[100%]"
+            />
           </div>
         </section>
         <p className="text-base">
