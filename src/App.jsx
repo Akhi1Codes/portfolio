@@ -5,9 +5,11 @@ import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
 
 const AppLayout = () => (
   <>
-    <Nav />
-    <Outlet />
-    <Footer />
+    <div className=" w-[768px]">
+      <Nav />
+      <Outlet />
+      <Footer />
+    </div>
   </>
 );
 
