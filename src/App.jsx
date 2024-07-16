@@ -1,12 +1,41 @@
 import Nav from "./components/Nav";
 import Home from "./pages/Home";
 import Footer from "./components/Footer";
+import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
+
+const AppLayout = () => (
+  <>
+    <Nav />
+    <Outlet />
+    <Footer />
+  </>
+);
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <AppLayout />,
+    children: [
+      {
+        path: "/",
+        element: <Home />,
+      },
+      {
+        path: "/projects",
+        element: <p>Projects</p>,
+      },
+      {
+        path: "/about",
+        element: <p>About</p>,
+      },
+    ],
+  },
+]);
+
 function App() {
   return (
     <>
-      <Nav />
-      <Home />
-      <Footer />
+      <RouterProvider router={router} />
     </>
   );
 }

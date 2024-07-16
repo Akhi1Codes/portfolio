@@ -70,22 +70,6 @@ const Home = () => {
                 </li>
                 <li className="p-2 border-2 rounded-xl">
                   <a
-                    href="https://developer.mozilla.org/en-US/docs/Web/HTML"
-                    target="blank"
-                  >
-                    Html
-                  </a>
-                </li>
-                <li className="p-2 border-2 rounded-xl">
-                  <a
-                    href="https://developer.mozilla.org/en-US/docs/Web/CSS"
-                    target="blank"
-                  >
-                    Css
-                  </a>
-                </li>
-                <li className="p-2 border-2 rounded-xl">
-                  <a
                     href="https://developer.mozilla.org/en-US/docs/Glossary/SQL"
                     target="blank"
                   >
@@ -133,6 +117,17 @@ const Home = () => {
                 </li>
                 <li className="p-2 border-2 rounded-xl">
                   <a href="https://www.canva.com/en_in/">Canva</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div>
+            <p>Others</p>
+            <div>
+              <ul className="flex gap-4 py-2">
+                <li className="p-2 border-2 rounded-xl">
+                  <a href="https://github.com/">Github</a>
                 </li>
               </ul>
             </div>
