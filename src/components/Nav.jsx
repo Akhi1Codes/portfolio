@@ -7,7 +7,7 @@ const Nav = () => {
         <ul className="flex justify-around font-bold p-4">
           <li>
             <NavLink
-              to="/portfolio"
+              to="/portfolio/home"
               className={({ isActive }) =>
                 isActive ? "underline underline-offset-4" : ""
               }
@@ -17,7 +17,7 @@ const Nav = () => {
           </li>
           <li>
             <NavLink
-              to="/projects"
+              to="portfolio/projects"
               className={({ isActive }) =>
                 isActive ? "underline underline-offset-4" : ""
               }
@@ -27,7 +27,7 @@ const Nav = () => {
           </li>
           <li>
             <NavLink
-              to="/about"
+              to="portfolio/about"
               className={({ isActive }) =>
                 isActive ? "underline underline-offset-4" : ""
               }

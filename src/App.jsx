@@ -1,6 +1,7 @@
 import Nav from "./components/Nav";
 import Home from "./pages/Home";
 import Footer from "./components/Footer";
+import Projects from "./pages/Projects";
 import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
 
 const AppLayout = () => (
@@ -23,11 +24,15 @@ const router = createBrowserRouter([
         element: <Home />,
       },
       {
-        path: "/projects",
-        element: <p>Projects</p>,
+        path: "/portfolio/home",
+        element: <Home />,
       },
       {
-        path: "/about",
+        path: "/portfolio/projects",
+        element: <Projects />,
+      },
+      {
+        path: "/portfolio/about",
         element: <p>About</p>,
       },
     ],
