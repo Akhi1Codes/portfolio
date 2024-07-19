@@ -2,6 +2,7 @@ import Nav from "./components/Nav";
 import Home from "./pages/Home";
 import Footer from "./components/Footer";
 import Projects from "./pages/Projects";
+import About from "./pages/About";
 import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
 
 const AppLayout = () => (
@@ -33,7 +34,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/portfolio/about",
-        element: <p>About</p>,
+        element: <About />,
       },
     ],
   },
