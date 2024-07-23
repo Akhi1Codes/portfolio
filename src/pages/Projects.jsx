@@ -7,7 +7,7 @@ const Projects = () => {
             WeatherGaze
           </h2>
           <p className="font-thin text-xs text-slate-300 italic p-1">
-            Weather info website
+            [webpack/css-loader/style-loader]
           </p>
           <ol className="list-disc">
             <li>
@@ -30,7 +30,7 @@ const Projects = () => {
             RPS-Survival
           </h2>
           <p className="font-thin text-xs text-slate-300 italic p-1">
-            A Rock-Paper-Scissor based game
+            [Html,Css,JS]
           </p>
           <ol className="list-disc">
             <li>Developed a game website based on Street-Fight theme.</li>
@@ -42,7 +42,7 @@ const Projects = () => {
         <div className="py-2">
           <h2 className="font-bold underline underline-offset-2">Bookology</h2>
           <p className="font-thin text-xs text-slate-300 italic p-1">
-            Library based website
+            [Html,Css,Js]
           </p>
           <ol className="list-disc">
             <li>
