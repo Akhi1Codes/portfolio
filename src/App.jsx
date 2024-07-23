@@ -7,7 +7,7 @@ import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
 
 const AppLayout = () => (
   <>
-    <div className=" w-[768px]">
+    <div className=" max-w-[768px] min-w-[350px]">
       <Nav />
       <Outlet />
       <Footer />

@@ -54,12 +54,13 @@ const Home = () => {
           experience with front-end framework and libraries like React. I&apos;m
           also skilled in creating/designing responsive designs.
         </p>
+
         <section className="py-3">
           <p className="text-lg font-bold py-4">Things i know/used</p>
           <div>
             <p>Programming Languages</p>
             <div>
-              <ul className="flex gap-4 py-2">
+              <ul className="flex gap-4 py-2 overflow-x-scroll">
                 <li className="p-2 border-2 rounded-xl">
                   <a
                     href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
@@ -91,7 +92,7 @@ const Home = () => {
           <div>
             <p>Frameworks</p>
             <div>
-              <ul className="flex gap-4 py-2">
+              <ul className="flex gap-4 py-2 overflow-x-scroll">
                 <li className="p-2 border-2 rounded-xl">
                   <a href="https://react.dev/">ReactJs</a>
                 </li>
@@ -111,7 +112,7 @@ const Home = () => {
           <div>
             <p>Design Tools</p>
             <div>
-              <ul className="flex gap-4 py-2">
+              <ul className="flex gap-4 py-2 overflow-x-scroll">
                 <li className="p-2 border-2 rounded-xl">
                   <a href="https://www.figma.com/">Figma</a>
                 </li>
@@ -125,7 +126,7 @@ const Home = () => {
           <div>
             <p>Others</p>
             <div>
-              <ul className="flex gap-4 py-2">
+              <ul className="flex gap-4 py-2 overflow-x-scroll">
                 <li className="p-2 border-2 rounded-xl">
                   <a href="https://github.com/">Github</a>
                 </li>
