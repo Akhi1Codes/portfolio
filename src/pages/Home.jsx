@@ -36,7 +36,11 @@ const Home = () => {
           </div>
           <div className="row-span-2 blur-[2px] grayscale hover:filter-none">
             <a href="https://ar-akhil.github.io/Restaurant" target="blank">
-              <img src={fastfood} alt="fastfood project" className="" />
+              <img
+                src={fastfood}
+                alt="fastfood project"
+                className="object-cover h-[100%]"
+              />
             </a>
           </div>
           <div className="col-span-2 col-start-3 row-start-1 grayscale blur-[2px] hover:filter-none">
